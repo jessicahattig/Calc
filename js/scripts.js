@@ -33,10 +33,10 @@ function handleCalculation(event) {
     result = divide(number1, number2);
   }
 
-  document.getElementById("output").innerText = result;
+  document.getElementById("output").inerText = result;
 }
 
 window.addEventListener("load", function() {
-  const form = document.getElementById("calculator");
+  const form = document.getElementById("calculator")
   form.addEventListener("submit", handleCalculation);
 });
